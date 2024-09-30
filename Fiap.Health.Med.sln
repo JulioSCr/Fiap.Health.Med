@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3D2C7021-4024-4147-B1BE-810AEE2BC1EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cadastro", "Cadastro", "{160E93A2-05EF-49DE-ACAB-A3EED2E07A1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Cadastros.Api", "src\services\Cadastro\Fiap.Health.Med.Cadastros.Api\Fiap.Health.Med.Cadastros.Api.csproj", "{CF01B48B-2062-45C3-831E-308205B2AFD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Cadastros.Application", "src\services\Cadastro\Fiap.Health.Med.Cadastros.Application\Fiap.Health.Med.Cadastros.Application.csproj", "{0163510F-76C9-45CD-8A9C-34C3098FC091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Cadastros.Domain", "src\services\Cadastro\Fiap.Health.Med.Cadastros.Domain\Fiap.Health.Med.Cadastros.Domain.csproj", "{24282D86-ABF9-413F-9346-8F418D904B3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Cadastros.Infrastructure", "src\services\Cadastro\Fiap.Health.Med.Cadastros.Infrastructure\Fiap.Health.Med.Cadastros.Infrastructure.csproj", "{B091AF1B-8371-43D0-AF6C-B48D6CD77595}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Cadastros.Tests", "src\services\Cadastro\Fiap.Health.Med.Cadastros.Tests\Fiap.Health.Med.Cadastros.Tests.csproj", "{1B4B7CBD-8E24-4FB2-BE2F-E5D8D038D58B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agendamento", "Agendamento", "{AA11678C-90CE-4732-85F7-D503ADBE15E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Agendamentos.Api", "src\services\Agendamento\Fiap.Health.Med.Agendamentos.Api\Fiap.Health.Med.Agendamentos.Api.csproj", "{5EB4482D-5C18-4EB4-9055-2B92BA501AA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Agendamentos.Application", "src\services\Agendamento\Fiap.Health.Med.Agendamentos.Application\Fiap.Health.Med.Agendamentos.Application.csproj", "{1B16FD57-48DF-4287-BA42-01F0CBABDC98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Agendamentos.Domain", "src\services\Agendamento\Fiap.Health.Med.Agendamentos.Domain\Fiap.Health.Med.Agendamentos.Domain.csproj", "{6043A303-80C4-4DC3-9B3D-2636EA1DC638}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Agendamentos.Infrastructure", "src\services\Agendamento\Fiap.Health.Med.Agendamentos.Infrastructure\Fiap.Health.Med.Agendamentos.Infrastructure.csproj", "{4DCC697D-A839-4103-8309-4E0F5FD450FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Agendamentos.Tests", "src\services\Agendamento\Fiap.Health.Med.Agendamentos.Tests\Fiap.Health.Med.Agendamentos.Tests.csproj", "{BCCD1CEB-0743-4C2A-A6A2-9D1D38C21A2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{3FE3AE07-27D1-40D7-987A-40B99BFDE303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Invest.Core", "src\building blocks\Fiap.Invest.Core\Fiap.Invest.Core.csproj", "{C99118CD-3C70-4B79-BC72-80264F68CAE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF01B48B-2062-45C3-831E-308205B2AFD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF01B48B-2062-45C3-831E-308205B2AFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF01B48B-2062-45C3-831E-308205B2AFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF01B48B-2062-45C3-831E-308205B2AFD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0163510F-76C9-45CD-8A9C-34C3098FC091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0163510F-76C9-45CD-8A9C-34C3098FC091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0163510F-76C9-45CD-8A9C-34C3098FC091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0163510F-76C9-45CD-8A9C-34C3098FC091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24282D86-ABF9-413F-9346-8F418D904B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24282D86-ABF9-413F-9346-8F418D904B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24282D86-ABF9-413F-9346-8F418D904B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24282D86-ABF9-413F-9346-8F418D904B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B091AF1B-8371-43D0-AF6C-B48D6CD77595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B091AF1B-8371-43D0-AF6C-B48D6CD77595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B091AF1B-8371-43D0-AF6C-B48D6CD77595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B091AF1B-8371-43D0-AF6C-B48D6CD77595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4B7CBD-8E24-4FB2-BE2F-E5D8D038D58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4B7CBD-8E24-4FB2-BE2F-E5D8D038D58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4B7CBD-8E24-4FB2-BE2F-E5D8D038D58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4B7CBD-8E24-4FB2-BE2F-E5D8D038D58B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB4482D-5C18-4EB4-9055-2B92BA501AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB4482D-5C18-4EB4-9055-2B92BA501AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB4482D-5C18-4EB4-9055-2B92BA501AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB4482D-5C18-4EB4-9055-2B92BA501AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B16FD57-48DF-4287-BA42-01F0CBABDC98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B16FD57-48DF-4287-BA42-01F0CBABDC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B16FD57-48DF-4287-BA42-01F0CBABDC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B16FD57-48DF-4287-BA42-01F0CBABDC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6043A303-80C4-4DC3-9B3D-2636EA1DC638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6043A303-80C4-4DC3-9B3D-2636EA1DC638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6043A303-80C4-4DC3-9B3D-2636EA1DC638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6043A303-80C4-4DC3-9B3D-2636EA1DC638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCC697D-A839-4103-8309-4E0F5FD450FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCC697D-A839-4103-8309-4E0F5FD450FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCC697D-A839-4103-8309-4E0F5FD450FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCC697D-A839-4103-8309-4E0F5FD450FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCCD1CEB-0743-4C2A-A6A2-9D1D38C21A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCD1CEB-0743-4C2A-A6A2-9D1D38C21A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCD1CEB-0743-4C2A-A6A2-9D1D38C21A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCD1CEB-0743-4C2A-A6A2-9D1D38C21A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99118CD-3C70-4B79-BC72-80264F68CAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99118CD-3C70-4B79-BC72-80264F68CAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99118CD-3C70-4B79-BC72-80264F68CAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99118CD-3C70-4B79-BC72-80264F68CAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{160E93A2-05EF-49DE-ACAB-A3EED2E07A1F} = {3D2C7021-4024-4147-B1BE-810AEE2BC1EE}
+		{CF01B48B-2062-45C3-831E-308205B2AFD4} = {160E93A2-05EF-49DE-ACAB-A3EED2E07A1F}
+		{0163510F-76C9-45CD-8A9C-34C3098FC091} = {160E93A2-05EF-49DE-ACAB-A3EED2E07A1F}
+		{24282D86-ABF9-413F-9346-8F418D904B3C} = {160E93A2-05EF-49DE-ACAB-A3EED2E07A1F}
+		{B091AF1B-8371-43D0-AF6C-B48D6CD77595} = {160E93A2-05EF-49DE-ACAB-A3EED2E07A1F}
+		{1B4B7CBD-8E24-4FB2-BE2F-E5D8D038D58B} = {160E93A2-05EF-49DE-ACAB-A3EED2E07A1F}
+		{AA11678C-90CE-4732-85F7-D503ADBE15E6} = {3D2C7021-4024-4147-B1BE-810AEE2BC1EE}
+		{5EB4482D-5C18-4EB4-9055-2B92BA501AA1} = {AA11678C-90CE-4732-85F7-D503ADBE15E6}
+		{1B16FD57-48DF-4287-BA42-01F0CBABDC98} = {AA11678C-90CE-4732-85F7-D503ADBE15E6}
+		{6043A303-80C4-4DC3-9B3D-2636EA1DC638} = {AA11678C-90CE-4732-85F7-D503ADBE15E6}
+		{4DCC697D-A839-4103-8309-4E0F5FD450FA} = {AA11678C-90CE-4732-85F7-D503ADBE15E6}
+		{BCCD1CEB-0743-4C2A-A6A2-9D1D38C21A2C} = {AA11678C-90CE-4732-85F7-D503ADBE15E6}
+		{C99118CD-3C70-4B79-BC72-80264F68CAE7} = {3FE3AE07-27D1-40D7-987A-40B99BFDE303}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A07828E-F2C4-487D-A02D-3B05AD24A847}
+	EndGlobalSection
+EndGlobal
