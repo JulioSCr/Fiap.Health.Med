@@ -13,6 +13,7 @@ public sealed class AuthContext : IdentityDbContext, ISecurityKeyContext, IUnitO
     public AuthContext(DbContextOptions<AuthContext> options) : base(options) { }
     public DbSet<KeyMaterial> SecurityKeys { get; set; }
     public DbSet<FiapHealthMedUser> FiapHealthMedUser { get; set; }
+    public DbSet<Pessoa> Pessoas { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

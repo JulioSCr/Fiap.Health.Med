@@ -13,7 +13,7 @@ public static class Program
         builder.Services.AddIdentityConfiguration(builder.Configuration);
         builder.Services.AddApiConfiguration(builder.Configuration);
         builder.Services.AddSwaggerConfiguration(new(
-                "Auth API",
+                "Cadastro API",
                 "Esta API faz parte do projeto Fiap Health Med, projeto em grupo de alunos da FIAP",
                 $"{Assembly.GetExecutingAssembly().GetName().Name}.xml"));
         builder.Services.RegisterServices();

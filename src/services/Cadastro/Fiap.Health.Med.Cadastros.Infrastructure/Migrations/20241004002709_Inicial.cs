@@ -54,6 +54,23 @@ namespace Fiap.Health.Med.Cadastros.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Pessoas",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Cpf = table.Column<string>(type: "text", nullable: false),
+                    Nome = table.Column<string>(type: "text", nullable: false),
+                    Email = table.Column<string>(type: "text", nullable: false),
+                    TipoPessoa = table.Column<string>(type: "character varying(8)", maxLength: 8, nullable: false),
+                    CrmNumero = table.Column<string>(type: "text", nullable: true),
+                    CrmEstado = table.Column<string>(type: "text", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Pessoas", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "SecurityKeys",
                 columns: table => new
                 {
@@ -232,6 +249,9 @@ namespace Fiap.Health.Med.Cadastros.Infrastructure.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "Pessoas");
 
             migrationBuilder.DropTable(
                 name: "SecurityKeys");

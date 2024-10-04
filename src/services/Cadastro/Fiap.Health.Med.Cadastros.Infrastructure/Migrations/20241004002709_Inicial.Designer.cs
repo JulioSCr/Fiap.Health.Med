@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Fiap.Health.Med.Cadastros.Infrastructure.Migrations
 {
     [DbContext(typeof(AuthContext))]
-    [Migration("20241003010353_Inicial")]
+    [Migration("20241004002709_Inicial")]
     partial class Inicial
     {
         /// <inheritdoc />
@@ -24,6 +24,38 @@ namespace Fiap.Health.Med.Cadastros.Infrastructure.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+
+            modelBuilder.Entity("Fiap.Health.Med.Cadastros.Domain.Entities.Pessoa", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Cpf")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("TipoPessoa")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .HasColumnType("character varying(8)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Pessoas");
+
+                    b.HasDiscriminator<string>("TipoPessoa").HasValue("Pessoa");
+
+                    b.UseTphMappingStrategy();
+                });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
@@ -264,6 +296,28 @@ namespace Fiap.Health.Med.Cadastros.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("SecurityKeys");
+                });
+
+            modelBuilder.Entity("Fiap.Health.Med.Cadastros.Domain.Entities.Medico", b =>
+                {
+                    b.HasBaseType("Fiap.Health.Med.Cadastros.Domain.Entities.Pessoa");
+
+                    b.Property<string>("CrmEstado")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("CrmNumero")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasDiscriminator().HasValue("Medico");
+                });
+
+            modelBuilder.Entity("Fiap.Health.Med.Cadastros.Domain.Entities.Paciente", b =>
+                {
+                    b.HasBaseType("Fiap.Health.Med.Cadastros.Domain.Entities.Pessoa");
+
+                    b.HasDiscriminator().HasValue("Paciente");
                 });
 
             modelBuilder.Entity("Fiap.Health.Med.Cadastros.Domain.Entities.FiapHealthMedUser", b =>

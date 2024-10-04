@@ -3,7 +3,6 @@ using Delivery.WebAPI.Core.Controllers;
 using Fiap.Health.Med.Cadastros.Application.DTOs;
 using Fiap.Health.Med.Cadastros.Application.InputModels;
 using Fiap.Health.Med.Cadastros.Application.Services;
-using Fiap.Health.Med.Cadastros.Domain.Enums;
 using Fiap.Invest.Core.Exceptions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -12,9 +11,9 @@ namespace Fiap.Health.Med.Cadastros.Api.Controllers;
 [Route("api/[Controller]")]
 public class PacienteController : MainController
 {
-    private readonly IAuthService _service;
+    private readonly IPacienteService _service;
 
-    public PacienteController(IAuthService service)
+    public PacienteController(IPacienteService service)
     {
         _service = service;
     }
@@ -28,7 +27,7 @@ public class PacienteController : MainController
     {
         try
         {
-            return CustomResponse(await _service.RegistrarAsync(model));
+            return CustomResponse(await _service.CadastrarAsync(model));
         }
         catch (Exception ex) when (ex is FiapInvestApplicationException || ex is DomainException || ex is DataNotFoundException)
         {
@@ -46,7 +45,7 @@ public class PacienteController : MainController
     {
         try
         {
-            return CustomResponse(await _service.AutenticarAsync(model, TipoUsuario.Paciente));
+            return CustomResponse(await _service.AutenticarAsync(model));
         }
         catch (Exception ex) when (ex is FiapInvestApplicationException || ex is DomainException || ex is DataNotFoundException)
         {
