@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4j3pmsge2FQuxyGBqayq/dZ4T7vtUADgE5i17QKkXqI=",
+  "Source": "Fiap.Health.Med.Api",
+  "BasePath": "_content/Fiap.Health.Med.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

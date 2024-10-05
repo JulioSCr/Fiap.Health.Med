@@ -1,0 +1,572 @@
+[
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.AgendamentoController",
+    "Method": "ObterTodos",
+    "RelativePath": "api",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.AgendamentoController",
+    "Method": "ObterPorId",
+    "RelativePath": "api/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.AgendamentoController",
+    "Method": "Adicionar",
+    "RelativePath": "api/Cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agendamento",
+        "Type": "Fiap.Health.Med.Application.Features.Agendamentos.Commands.AdicionarAgendamento.AdicionarAgendamentoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.AgendamentoController",
+    "Method": "Cancelar",
+    "RelativePath": "api/Cancelar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agendamento",
+        "Type": "Fiap.Health.Med.Application.Features.Agendamentos.Commands.RemoverAgendamento.RemoverAgendamentoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.EspecialidadeController",
+    "Method": "ObterTodos",
+    "RelativePath": "api/Especialidade",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.EspecialidadeController",
+    "Method": "Adicionar",
+    "RelativePath": "api/Especialidade",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "especialidade",
+        "Type": "Fiap.Health.Med.Application.Features.Especialidades.Commands.AdicionarEspecialidade.AdicionarEspecialidadeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.EspecialidadeController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Especialidade",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "especialidade",
+        "Type": "Fiap.Health.Med.Application.Features.Especialidades.Commands.AtualizarEspecialidade.AtualizarEspecialidadeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.EspecialidadeController",
+    "Method": "Remover",
+    "RelativePath": "api/Especialidade",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "especialidade",
+        "Type": "Fiap.Health.Med.Application.Features.Especialidades.Commands.RemoverEspecialidade.RemoverEspecialidadeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.EspecialidadeMedicoController",
+    "Method": "ObterTodos",
+    "RelativePath": "api/especialidade-medico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Fiap.Health.Med.Domain.Entity.EspecialidadeMedico, Fiap.Health.Med.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.EspecialidadeMedicoController",
+    "Method": "Adicionar",
+    "RelativePath": "api/especialidade-medico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "especialidadeMedico",
+        "Type": "Fiap.Health.Med.Application.Features.EspecialidadesMedicos.Commands.AdicionarEspecialidadeMedico.AdicionarEspecialidadeMedicoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fiap.Health.Med.Domain.Entity.EspecialidadeMedico",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.EspecialidadeMedicoController",
+    "Method": "Atualizar",
+    "RelativePath": "api/especialidade-medico",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "especialidadeMedico",
+        "Type": "Fiap.Health.Med.Application.Features.EspecialidadesMedicos.Commands.AtualizarEspecialidadeMedico.AtualizarEspecialidadeMedicoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.EspecialidadeMedicoController",
+    "Method": "Remover",
+    "RelativePath": "api/especialidade-medico",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "especialidadeMedico",
+        "Type": "Fiap.Health.Med.Application.Features.EspecialidadesMedicos.Commands.RemoverEspecialidadeMedico.RemoverEspecialidadeMedicoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.EspecialidadeMedicoController",
+    "Method": "ObterPorId",
+    "RelativePath": "api/especialidade-medico/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fiap.Health.Med.Domain.Entity.EspecialidadeMedico",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.EspecialidadeController",
+    "Method": "ObterPorId",
+    "RelativePath": "api/Especialidade/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.EspecialidadeController",
+    "Method": "ObterMedicoEspecialidadePorIdMedico",
+    "RelativePath": "api/Especialidade/EspecialidadeMedicos/{idEspecialidade}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEspecialidade",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.AgendamentoController",
+    "Method": "ObterAgendamentoPorStatus",
+    "RelativePath": "api/Por-status/{status}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.AgendamentoController",
+    "Method": "Reagendar",
+    "RelativePath": "api/Reagendar/{id}/{data}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agendamento",
+        "Type": "Fiap.Health.Med.Application.Features.Agendamentos.Commands.AtualizarAgendamento.RealizarReagendamentoCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "data",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "autenticar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioLogin",
+        "Type": "Fiap.Health.Med.Application.Features.Auth.Commands.GerarJwtTokenCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.MedicoController",
+    "Method": "ObterTodos",
+    "RelativePath": "Medico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.MedicoController",
+    "Method": "Adicionar",
+    "RelativePath": "Medico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medico",
+        "Type": "Fiap.Health.Med.Application.Features.Medicos.Commands.AdicionarMedico.AdicionarMedicoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.MedicoController",
+    "Method": "Atualizar",
+    "RelativePath": "Medico",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medico",
+        "Type": "Fiap.Health.Med.Application.Features.Medicos.Commands.AtualizarMedico.AtualizarMedicoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.MedicoController",
+    "Method": "Remover",
+    "RelativePath": "Medico",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medico",
+        "Type": "Fiap.Health.Med.Application.Features.Medicos.Commands.RemoverMedico.RemoverMedicoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.MedicoController",
+    "Method": "ObterPorId",
+    "RelativePath": "Medico/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.MedicoController",
+    "Method": "ObterAgendamentoPorMedico",
+    "RelativePath": "Medico/Agendamento/{idMedico}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMedico",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.MedicoController",
+    "Method": "CadastrarAgendaMedico",
+    "RelativePath": "Medico/Cadastrar-Agenda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agendaMedico",
+        "Type": "Fiap.Health.Med.Application.Features.Medicos.Commands.AdicionarAgenda.AdicionarAgendaMedicoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.MedicoController",
+    "Method": "ObterMedicoEspecialidadePorIdMedico",
+    "RelativePath": "Medico/MedicoEspecialidades/{idMedico}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMedico",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.PacienteController",
+    "Method": "ObterTodos",
+    "RelativePath": "Paciente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.PacienteController",
+    "Method": "Adicionar",
+    "RelativePath": "Paciente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paciente",
+        "Type": "Fiap.Health.Med.Application.Features.Pacientes.Commands.AdicionarPaciente.AdicionarPacienteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.PacienteController",
+    "Method": "Atualizar",
+    "RelativePath": "Paciente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paciente",
+        "Type": "Fiap.Health.Med.Application.Features.Pacientes.Commands.AtualizarPaciente.AtualizarPacienteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.PacienteController",
+    "Method": "Remover",
+    "RelativePath": "Paciente",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paciente",
+        "Type": "Fiap.Health.Med.Application.Features.Pacientes.Commands.RemoverPaciente.RemoverPacienteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.PacienteController",
+    "Method": "ObterPorId",
+    "RelativePath": "Paciente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Health.Med.Api.Controllers.PacienteController",
+    "Method": "ObterAgendamentoPorPaciente",
+    "RelativePath": "Paciente/Agendamento/{idPaciente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPaciente",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

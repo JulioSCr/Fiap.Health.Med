@@ -1,0 +1,16 @@
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\bin\Debug\net8.0\Fiap.Health.Med.Application.deps.json
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\bin\Debug\net8.0\Fiap.Health.Med.Application.dll
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\bin\Debug\net8.0\Fiap.Health.Med.Application.pdb
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\bin\Debug\net8.0\Fiap.Health.Med.Domain.dll
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\bin\Debug\net8.0\Fiap.Health.Med.Domain.pdb
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\obj\Debug\net8.0\Fiap.Health.Med.Application.csproj.AssemblyReference.cache
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\obj\Debug\net8.0\Fiap.Health.Med.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\obj\Debug\net8.0\Fiap.Health.Med.Application.AssemblyInfoInputs.cache
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\obj\Debug\net8.0\Fiap.Health.Med.Application.AssemblyInfo.cs
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\obj\Debug\net8.0\Fiap.Health.Med.Application.csproj.CoreCompileInputs.cache
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\obj\Debug\net8.0\Fiap.Health.Med.Application.sourcelink.json
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\obj\Debug\net8.0\Fiap.Hea.4F7A0A8D.Up2Date
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\obj\Debug\net8.0\Fiap.Health.Med.Application.dll
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\obj\Debug\net8.0\refint\Fiap.Health.Med.Application.dll
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\obj\Debug\net8.0\Fiap.Health.Med.Application.pdb
+D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.Application\obj\Debug\net8.0\ref\Fiap.Health.Med.Application.dll

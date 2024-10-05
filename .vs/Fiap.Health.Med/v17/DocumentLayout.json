@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FIAP\\Fiap.Health.Med\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|solutionrelative:fiap.health.med.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.api\\configuration\\apiserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|solutionrelative:fiap.health.med.api\\configuration\\apiserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|solutionrelative:fiap.health.med.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.api\\fiap.health.med.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|solutionrelative:fiap.health.med.api\\fiap.health.med.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.infrastructure\\fiap.health.med.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|solutionrelative:fiap.health.med.infrastructure\\fiap.health.med.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A12DBD-4AAF-4C71-A186-A51C0918286B}|Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.application.unittests\\fiap.health.med.application.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81A12DBD-4AAF-4C71-A186-A51C0918286B}|Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj|solutionrelative:fiap.health.med.application.unittests\\fiap.health.med.application.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B3CF59D-EF59-4E44-96AA-7FF20210AA78}|Fiap.Health.Med.Domain\\Fiap.Health.Med.Domain.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.domain\\fiap.health.med.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B3CF59D-EF59-4E44-96AA-7FF20210AA78}|Fiap.Health.Med.Domain\\Fiap.Health.Med.Domain.csproj|solutionrelative:fiap.health.med.domain\\fiap.health.med.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.infrastructure\\migrations\\20241005150853_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|solutionrelative:fiap.health.med.infrastructure\\migrations\\20241005150853_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.infrastructure\\migrations\\healthdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|solutionrelative:fiap.health.med.infrastructure\\migrations\\healthdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|solutionrelative:fiap.health.med.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.api\\configuration\\applicationserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|solutionrelative:fiap.health.med.api\\configuration\\applicationserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.api\\configuration\\infrastructureserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|solutionrelative:fiap.health.med.api\\configuration\\infrastructureserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.api\\configuration\\identityserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EFB54C-E1B3-447D-842F-5F3346B247E6}|Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj|solutionrelative:fiap.health.med.api\\configuration\\identityserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.infrastructure\\usuario\\aspnetuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|solutionrelative:fiap.health.med.infrastructure\\usuario\\aspnetuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.infrastructure\\communication\\responseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|solutionrelative:fiap.health.med.infrastructure\\communication\\responseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.infrastructure\\identidade\\jwtconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|solutionrelative:fiap.health.med.infrastructure\\identidade\\jwtconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A12DBD-4AAF-4C71-A186-A51C0918286B}|Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.application.unittests\\features\\especialidadesmedicos\\commands\\adicionarespecialidademedicocommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A12DBD-4AAF-4C71-A186-A51C0918286B}|Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj|solutionrelative:fiap.health.med.application.unittests\\features\\especialidadesmedicos\\commands\\adicionarespecialidademedicocommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A12DBD-4AAF-4C71-A186-A51C0918286B}|Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.application.unittests\\features\\medicos\\commands\\adicionarmedicocommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A12DBD-4AAF-4C71-A186-A51C0918286B}|Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj|solutionrelative:fiap.health.med.application.unittests\\features\\medicos\\commands\\adicionarmedicocommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A12DBD-4AAF-4C71-A186-A51C0918286B}|Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.application.unittests\\features\\agendamentos\\commands\\adicionaragendamentocommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A12DBD-4AAF-4C71-A186-A51C0918286B}|Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj|solutionrelative:fiap.health.med.application.unittests\\features\\agendamentos\\commands\\adicionaragendamentocommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|d:\\fiap\\fiap.health.med\\fiap.health.med.infrastructure\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A679F1F-EAB2-476A-9513-CACA86A8FD03}|Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj|solutionrelative:fiap.health.med.infrastructure\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Fiap.Health.Med.Application.UnitTests",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj",
+              "RelativeToolTip": "Fiap.Health.Med.Application.UnitTests\\Fiap.Health.Med.Application.UnitTests.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-05T15:19:25.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241005150853_init.Designer.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Migrations\\20241005150853_init.Designer.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Infrastructure\\Migrations\\20241005150853_init.Designer.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Migrations\\20241005150853_init.Designer.cs",
+              "RelativeToolTip": "Fiap.Health.Med.Infrastructure\\Migrations\\20241005150853_init.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAawBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:11:04.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.API\\appsettings.Development.json",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\appsettings.Development.json",
+              "RelativeToolTip": "Fiap.Health.Med.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T15:09:15.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.API\\appsettings.json",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\appsettings.json",
+              "RelativeToolTip": "Fiap.Health.Med.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T15:09:08.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Fiap.Health.Med.Domain.csproj",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Domain\\Fiap.Health.Med.Domain.csproj",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Domain\\Fiap.Health.Med.Domain.csproj",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Domain\\Fiap.Health.Med.Domain.csproj",
+              "RelativeToolTip": "Fiap.Health.Med.Domain\\Fiap.Health.Med.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-05T15:08:01.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Program.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.API\\Program.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Program.cs",
+              "RelativeToolTip": "Fiap.Health.Med.API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:56:13.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InfrastructureServiceConfiguration.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Configuration\\InfrastructureServiceConfiguration.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.API\\Configuration\\InfrastructureServiceConfiguration.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Configuration\\InfrastructureServiceConfiguration.cs",
+              "RelativeToolTip": "Fiap.Health.Med.API\\Configuration\\InfrastructureServiceConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:55:22.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IdentityServiceConfiguration.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Configuration\\IdentityServiceConfiguration.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.API\\Configuration\\IdentityServiceConfiguration.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Configuration\\IdentityServiceConfiguration.cs",
+              "RelativeToolTip": "Fiap.Health.Med.API\\Configuration\\IdentityServiceConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:54:52.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AspNetUser.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Usuario\\AspNetUser.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Infrastructure\\Usuario\\AspNetUser.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Usuario\\AspNetUser.cs",
+              "RelativeToolTip": "Fiap.Health.Med.Infrastructure\\Usuario\\AspNetUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:54:30.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ResponseResult.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Communication\\ResponseResult.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Infrastructure\\Communication\\ResponseResult.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Communication\\ResponseResult.cs",
+              "RelativeToolTip": "Fiap.Health.Med.Infrastructure\\Communication\\ResponseResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:53:54.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationServiceConfiguration.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Configuration\\ApplicationServiceConfiguration.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.API\\Configuration\\ApplicationServiceConfiguration.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Configuration\\ApplicationServiceConfiguration.cs",
+              "RelativeToolTip": "Fiap.Health.Med.API\\Configuration\\ApplicationServiceConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:52:02.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Fiap.Health.Med.Api.csproj",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj",
+              "RelativeToolTip": "Fiap.Health.Med.API\\Fiap.Health.Med.Api.csproj",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-05T14:50:19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiServiceConfiguration.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Configuration\\ApiServiceConfiguration.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.API\\Configuration\\ApiServiceConfiguration.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Configuration\\ApiServiceConfiguration.cs",
+              "RelativeToolTip": "Fiap.Health.Med.API\\Configuration\\ApiServiceConfiguration.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAnwC0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:51:58.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fiap.Health.Med.Infrastructure",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj",
+              "RelativeToolTip": "Fiap.Health.Med.Infrastructure\\Fiap.Health.Med.Infrastructure.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-05T15:20:19.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HealthDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Migrations\\HealthDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Infrastructure\\Migrations\\HealthDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Migrations\\HealthDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Fiap.Health.Med.Infrastructure\\Migrations\\HealthDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:11:12.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdicionarEspecialidadeMedicoCommandHandlerTests.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Application.UnitTests\\Features\\EspecialidadesMedicos\\Commands\\AdicionarEspecialidadeMedicoCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Application.UnitTests\\Features\\EspecialidadesMedicos\\Commands\\AdicionarEspecialidadeMedicoCommandHandlerTests.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Application.UnitTests\\Features\\EspecialidadesMedicos\\Commands\\AdicionarEspecialidadeMedicoCommandHandlerTests.cs",
+              "RelativeToolTip": "Fiap.Health.Med.Application.UnitTests\\Features\\EspecialidadesMedicos\\Commands\\AdicionarEspecialidadeMedicoCommandHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:50:39.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdicionarMedicoCommandHandlerTests.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Application.UnitTests\\Features\\Medicos\\Commands\\AdicionarMedicoCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Application.UnitTests\\Features\\Medicos\\Commands\\AdicionarMedicoCommandHandlerTests.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Application.UnitTests\\Features\\Medicos\\Commands\\AdicionarMedicoCommandHandlerTests.cs",
+              "RelativeToolTip": "Fiap.Health.Med.Application.UnitTests\\Features\\Medicos\\Commands\\AdicionarMedicoCommandHandlerTests.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:50:08.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdicionarAgendamentoCommandHandlerTests.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Application.UnitTests\\Features\\Agendamentos\\Commands\\AdicionarAgendamentoCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Application.UnitTests\\Features\\Agendamentos\\Commands\\AdicionarAgendamentoCommandHandlerTests.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Application.UnitTests\\Features\\Agendamentos\\Commands\\AdicionarAgendamentoCommandHandlerTests.cs",
+              "RelativeToolTip": "Fiap.Health.Med.Application.UnitTests\\Features\\Agendamentos\\Commands\\AdicionarAgendamentoCommandHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:49:59.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Infrastructure\\Repository\\Repository.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Repository\\Repository.cs",
+              "RelativeToolTip": "Fiap.Health.Med.Infrastructure\\Repository\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:49:51.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JwtConfig.cs",
+              "DocumentMoniker": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Identidade\\JwtConfig.cs",
+              "RelativeDocumentMoniker": "Fiap.Health.Med.Infrastructure\\Identidade\\JwtConfig.cs",
+              "ToolTip": "D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Infrastructure\\Identidade\\JwtConfig.cs",
+              "RelativeToolTip": "Fiap.Health.Med.Infrastructure\\Identidade\\JwtConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:49:32.049Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

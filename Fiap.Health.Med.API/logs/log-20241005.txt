@@ -1,0 +1,69 @@
+2024-10-05 11:36:44.700 -03:00 [INF] Now listening on: https://localhost:7247
+2024-10-05 11:36:44.724 -03:00 [INF] Now listening on: http://localhost:5159
+2024-10-05 11:36:44.782 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-05 11:36:44.782 -03:00 [INF] Hosting environment: Development
+2024-10-05 11:36:44.782 -03:00 [INF] Content root path: C:\Users\julia\Downloads\Health-Med-Scheduler-main\Health-Med-Scheduler-main\Fiap.Health.Med.API
+2024-10-05 11:38:36.064 -03:00 [INF] Now listening on: https://localhost:7247
+2024-10-05 11:38:36.096 -03:00 [INF] Now listening on: http://localhost:5159
+2024-10-05 11:38:36.184 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-05 11:38:36.185 -03:00 [INF] Hosting environment: Development
+2024-10-05 11:38:36.185 -03:00 [INF] Content root path: C:\Users\julia\Downloads\Health-Med-Scheduler-main\Health-Med-Scheduler-main\Fiap.Health.Med.API
+2024-10-05 11:39:32.181 -03:00 [INF] Now listening on: https://localhost:7247
+2024-10-05 11:39:32.203 -03:00 [INF] Now listening on: http://localhost:5159
+2024-10-05 11:39:32.284 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-05 11:39:32.285 -03:00 [INF] Hosting environment: Development
+2024-10-05 11:39:32.285 -03:00 [INF] Content root path: C:\Users\julia\Downloads\Health-Med-Scheduler-main\Health-Med-Scheduler-main\Fiap.Health.Med.API
+2024-10-05 11:51:06.628 -03:00 [INF] Now listening on: https://localhost:7247
+2024-10-05 11:51:06.654 -03:00 [INF] Now listening on: http://localhost:5159
+2024-10-05 11:51:06.710 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-05 11:51:06.711 -03:00 [INF] Hosting environment: Development
+2024-10-05 11:51:06.711 -03:00 [INF] Content root path: C:\Users\julia\Downloads\Health-Med-Scheduler-main\Health-Med-Scheduler-main\Fiap.Health.Med.API
+2024-10-05 11:52:51.254 -03:00 [INF] Now listening on: https://localhost:7247
+2024-10-05 11:52:51.274 -03:00 [INF] Now listening on: http://localhost:5159
+2024-10-05 11:52:51.340 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-05 11:52:51.341 -03:00 [INF] Hosting environment: Development
+2024-10-05 11:52:51.341 -03:00 [INF] Content root path: C:\Users\julia\Downloads\Health-Med-Scheduler-main\Health-Med-Scheduler-main\Fiap.Health.Med.API
+2024-10-05 12:22:01.363 -03:00 [INF] Now listening on: https://localhost:7247
+2024-10-05 12:22:01.385 -03:00 [INF] Now listening on: http://localhost:5159
+2024-10-05 12:22:01.421 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-05 12:22:01.421 -03:00 [INF] Hosting environment: Development
+2024-10-05 12:22:01.421 -03:00 [INF] Content root path: D:\FIAP\Fiap.Health.Med\Fiap.Health.Med.API
+2024-10-05 12:22:16.650 -03:00 [INF] Endpoint para login de usuario
+2024-10-05 12:22:17.536 -03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Fiap.Health.Med.Infrastructure.Context.HealthDbContext'.
+System.ArgumentException: Couldn't set trusted_connection (Parameter 'trusted_connection')
+ ---> System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at Npgsql.NpgsqlConnectionStringBuilder.GeneratedActions(GeneratedAction action, String keyword, Object& value)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnectionStringBuilder..ctor(String connectionString)
+   at Npgsql.NpgsqlConnection.SetupDataSource()
+   at Npgsql.NpgsqlConnection.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection..ctor(String connectionString)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.get_DbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.ArgumentException: Couldn't set trusted_connection (Parameter 'trusted_connection')
+ ---> System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at Npgsql.NpgsqlConnectionStringBuilder.GeneratedActions(GeneratedAction action, String keyword, Object& value)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnectionStringBuilder..ctor(String connectionString)
+   at Npgsql.NpgsqlConnection.SetupDataSource()
+   at Npgsql.NpgsqlConnection.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection..ctor(String connectionString)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.get_DbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-10-05 12:22:17.763 -03:00 [ERR] {"Errors":{},"Type":"InternalServerError","Title":"Couldn't set trusted_connection (Parameter 'trusted_connection')","Status":500,"Detail":"   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)\r\n   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)\r\n   at Npgsql.NpgsqlConnectionStringBuilder..ctor(String connectionString)\r\n   at Npgsql.NpgsqlConnection.SetupDataSource()\r\n   at Npgsql.NpgsqlConnection.set_ConnectionString(String value)\r\n   at Npgsql.NpgsqlConnection..ctor(String connectionString)\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlRelationalConnection.CreateDbConnection()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.get_DbConnection()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()\r\n   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)\r\n   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)\r\n   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)\r\n   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)\r\n   at Fiap.Health.Med.Application.Features.Auth.Commands.GerarJwtTokenCommandHandler.Handle(GerarJwtTokenCommand request, CancellationToken cancellationToken) in D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.Application\\Features\\Auth\\Commands\\GerarJwtTokenCommandHandler.cs:line 37\r\n   at Fiap.Health.Med.Api.Controllers.AuthController.Login(GerarJwtTokenCommand usuarioLogin) in D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Controllers\\AuthController.cs:line 29\r\n   at lambda_method6(Closure, Object)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)\r\n   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)\r\n   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)\r\n   at Fiap.Health.Med.Api.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in D:\\FIAP\\Fiap.Health.Med\\Fiap.Health.Med.API\\Middlewares\\ExceptionMiddleware.cs:line 23","Instance":null,"Extensions":{}}
