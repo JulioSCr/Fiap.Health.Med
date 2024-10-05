@@ -1,243 +1,147 @@
-# Health&Med Scheduler
-## Índice
-- [Health\&Med Scheduler](#healthmed-scheduler)
-  - [Índice](#índice)
-  - [Sobre](#sobre)
-  - [Integrantes](#integrantes)
-  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-  - [Solução](#solução)
-  - [Projeto em um cluster no AKS](#projeto-em-um-cluster-no-aks)
-  - [Como Executar o Projeto](#como-executar-o-projeto)
-  - [Como Executar o Projeto no Kubernetes](#como-executar-o-projeto-no-kubernetes)
-  - [Testes](#testes)
-  - [Levantamento de Requisitos](#levantamento-de-requisitos)
-    - [Histórico da Empresa](#histórico-da-empresa)
-    - [DDD](#ddd)
-      - [Domain Storytelling](#domain-storytelling)
-      - [Domínios e Contextos Delimitados Identificados](#domínios-e-contextos-delimitados-identificados)
-        - [Domínios](#domínios)
-      - [Contextos Delimitados](#contextos-delimitados)
-    - [Requisitos Funcionais](#requisitos-funcionais)
-    - [Requisitos Não Funcionais](#requisitos-não-funcionais)
-    - [Diagrama da Base de Dados](#diagrama-da-base-de-dados)
-    
+# FACULDADE DE INFORMÁTICA E ADMINISTRAÇÃO PAULISTA
 
-## Sobre
-Este projeto faz parte do trabalho de conclusão do Hackathon da POSTECH FIAP de Arquitetura de Sistemas .Net com Azure, e ganhou premio de melhor solução apresentada.
+# Projeto: Health&Med
 
-[voltar](#índice)
+# Integrantes
 
-## Integrantes
+JULIO DA SILVA CRUZ – RM352759
 
-| Nome                   | RM     | GitHub                             |
-| ---------------------- | ------ | ---------------------------------- |
-| Alex Jussiani Junior   | 350671 | https://github.com/AlexJussiani    |
-| Erick Setti dos Santos | 351206 | https://github.com/ESettiCalculist |
-| Fábio da Silva Pereira | 351053 | https://github.com/fbiopereira     |
-| Richard Kendy Tanaka   | 351234 | https://github.com/RichardKT88     |
+JULIANO RONCOLETTA VERONEZ - RM352758
 
-[voltar](#índice)
+ERICK MOLIZANE ALMEIDA MOTTA – RM352724
 
-## Tecnologias Utilizadas
+# 1. OBJETIVO
 
-| Tecnologias                                                                                | Uso                                                         |
-| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)                                      | Linguagem de Programação                                    |
-| [.NET](https://dotnet.microsoft.com/)                                                      | Framework web                                               |
-| [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)                         | Biblioteca para persistência de Dados (ORM)                 |
-| [Serilog](https://serilog.net/)                                                            | Captura de Logs                                             |
-| [Visual Studio 2022](https://visualstudio.microsoft.com/pt-br/)                            | Editor de Código                                            |
-| [Run Coverlet Report](https://github.com/the-dext/RunCoverletReport/blob/master/README.md) | Plugin do Visual Studio para analisar a cobertura de testes |
+Listagem de requisitos do Hackathon apresentado à Faculdade de Informática e Administração Paulista como parte das exigências do Curso de Pós-graduação de Arquitetura de Sistemas .NET com Azure.
 
 
-[voltar](#índice)
+# 2. FUNDAMENTAÇÃO TEÓRICA
 
-## Solução
-Desenvolvimento de uma Web Api em .NET Core com uma abordagem em Code First Migrations, e o Entity Framework para a persistência dos dados em um banco de dados Sql Server.
+## 2.1. ESTRUTURA DO PROJETO
 
-Na arquitetura de software utilizamos os conceitos da Clean Architecture e o projeto está estruturado de acordo com a imagem abaixo:
+O projeto é dividido em duas interfaces de programação de aplicação (APIs), são elas:
+* Cadastro: responsável por cadastrar e autenticar o usuário;
+* Agendamento: possibilita o agendamento de consultas e marcação de disponibilidade de médicos.
 
-![Clean Architecture](./documentacao/imagens/Clean_HealthMed.png)
+## 2.2. Casos de uso
+Cadastrar médico:
+O médico se cadastra no sistema.
 
-[voltar](#índice)
+![image](https://github.com/user-attachments/assets/ce41b41a-5847-4287-82d4-ac70cac52b25)
 
-## Pipeline do Projeto com entrega em um cluster no AKS
 
-A pipeline é executada a cada commit na branch main onde após o build a imagem é salva no Azure Container Registry e a aplicação é executada em um cluster AKS, que está conectado a um SQL Server também no Azure.
-O projeto pode ser excutado no seguinte endereço
-   - http://135.237.20.236:4040/swagger/index.html
+Cadastrar paciente:
+O paciente se cadastra no sistema.
 
-[voltar](#índice)
+![image](https://github.com/user-attachments/assets/5d7fe949-9352-40d0-82e8-2d7ee3dff668)
 
-## Como Executar o Projeto
 
-1. Preparando a base de dados (local)
-    - Instale o SQL Server 2022 Developer na sua máquina
-        - https://www.microsoft.com/pt-br/sql-server/sql-server-downloads  
-  
-2. Instale o SQL Server Management Studio
-    - https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms 
-  
-3. Crie uma base de dados com o nome HealthMedScheduler
+Alterar horários de disponibilidade médica:
+O médico ao efetuar login poderá alterar seus horários, acrescentando ou removendo horários, caso haja clientes com consultas marcadas o horário não poderá ser deletado.
 
-4. Crie um usuário com o login 'fiap' e senha 'Fi@p_2@24' e coloque o HealthMedScheduler como banco default e de as devidas permissões de escrita nessa base de dados
+![image](https://github.com/user-attachments/assets/9a6e265e-7151-4fb9-b20c-594c263f9f1f)
 
-5. Preparando a base de dados (Docker)
 
-6. Para configurar uma base de dados do SQL Server, tanto no MAC quanto PC, basta usar o tutorial nesse link : https://blog.balta.io/sql-server-docker/
+Agendar consulta:
+O paciente ao efetuar login poderá consultar os médicos cadastrados, em seguida pesquisar os horários disponíveis de consulta do médico escolhido e agendar, o respectivo médico será informado sobre o agendamento através de um e-mail enviado pelo sistema.
 
-7. Nos utilizamos o seguinte comando para rodar o container  
-```
-docker run -v ~/docker --name sqlserver -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=P@ssw0rd" -p 1437:1433 -d mcr.microsoft.com/mssql/server
-```
-![Connection String](./documentacao/imagens/rodar_local.png)
+![image](https://github.com/user-attachments/assets/e51cb5d8-cdd6-40e2-8c8f-78a7f898184d)
 
-8. Clone este repositório
 
-9. No terminal vá até a pasta `/Health-Med-Scheduler` e execute o comando `dotnet restore` para restaurar as dependências do projeto
+## 2.3. API CADASTRO
 
-10. Execute o comando `dotnet run` na mesma pasta `/Health-Med-Scheduler` para executar o projeto. As tabelas serão criadas automaticamente    
-    - Acesse a documentação da API em:  
-      - `https://localhost:7247/swagger` 
-      - `http://localhost:5159/swagger`
+**Essa API cobre os requisitos funcionais número 1, 2, 4 e 5 do documento de requisitos fornecido pela FIAP.**
 
-[voltar](#índice)
+No cadastro e autenticação optou-se por criar dois _endpoints_, um para cadastro médico e outro para cadastro de pacientes, foi convencionado que o _front_ iria acionar cada um deles usando telas distintas. 
+É importante haver a separação entre esses dois tipos de cadastro porque no __login__ tanto o paciente quanto o médico acessam usando e-mail e senha e em um quadro onde o médico também é paciente ele poderia fazer ambos os registros usando os mesmos dados.
 
-## Como Executar o Projeto no Kubernetes
+A API segue o modelo de código limpo para melhor organização e para facilitar modificações futuras, tendo em vista que no momento o objetivo é criar um MVP.
 
-1. Preparando a base de dados
+### 2.3.1. Parâmetros de entrada
 
-2. Instale o SQL Server 2022 Developer na sua máquina
-        - https://www.microsoft.com/pt-br/sql-server/sql-server-downloads        
-3. Instale o SQL Server Management Studio
-        - https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms
+Existem no total quatro _endpoints_, sendo divididos em duas _controllers_, uma dedicada ao cadastro e autenticação de médicos e outra de pacientes, em ambos os casos a autenticação recebe os mesmos parâmetros de entrada.
 
-4. Instalando o Kubernetes
+Cadastro do Médico:
+* string Cpf;
+* string Email;
+* string nome;
+* string Senha;
+* string SenhaConfirmacao;
+* string Crm;
+* string CrmEstado.
 
-5. Você pode utilizar qualquer instância de Kubernetes. A aqui utilizamos o Rancher Desktop:  
-    https://rancherdesktop.io/
+Cadastro do Paciente:
+* string CPF;
+* string Email;
+* string Nome;
+* string Senha;
+* string SenhaConfirmacao.
 
-6. Durante a instalação utilize a opção abaixo, assim você não vai ter nenhum tipo de conflito caso tenha o Docker Desktop instalado:
+Autenticação:
+* string Email;
+* string Senha.
 
-![Rancher Desktop com Containerd](./documentacao/imagens/instalacao-rancher.png)
+### 2.3.2. Requisitos funcionais
 
-7. Instalando o Ingress Controller
+* Criptografar senha para salvar;
+* Campos "CPF" sendo _strings_ para se adequar ao formato hexadecimal que será necessário em um futuro próximo;
+* Validar se o CPF está no formato correto;
+* Validar se o e-mail registrado é composto por "[caracteres]@[caracteres]";
+* Validar a senha cadastrada que deve conter 6 caracteres no total (números, letras e caracteres especiais);
+* Validar se o CRM está no formato correto;
+* O médico deverá poder se cadastrar preenchendo os campos obrigatórios: Nome, CPF, Número CRM, E-mail e Senha;
+* O paciente poderá se cadastrar preenchendo os campos Nome, CPF, E- mail e Senha;
+* O sistema deve permitir que o médico faça login usando o e-mail e uma senha;
+* O sistema deve permitir que o paciente faça login usando E-mail e Senha.
 
-8. Para acessar a aplicação no Kubernetes sem port forward você precisará de um ingress controller. Para isso instale o Helm:
-    https://helm.sh/
+### 2.3.3. Requisitos não funcionais
 
-9. Com o helm instalado adicione o repositório do NGINX no mesmo com o seguinte comando:
-``` 
-helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
-helm repo update
-helm install ingress-nginx-controller ingress-nginx/ingress-nginx
-```
+* Banco de dados PostGreSQL;
+* .NET 8;
+* Arquitetura limpa.
 
-10. Executando a aplicação
 
-11. Abra o arquivo (./k8s/health-med.yml)
+## 2.4. API Agendamento
 
-12. Altere a linha 22 para ter o IP correto da sua máquina
+**Essa API cobre os requisitos funcionais número 3, 6, 7 e 8 e requisitos não funcionais número 1 e 2 do documento de requisitos fornecido pela FIAP.**
 
-13. Salve o arquivo e no diretorio k8s digite:
-```
-kubectl apply -f .\health-med.yml
-```
+A API segue o modelo de código limpo com minimal API para melhor manutenção e agilizar o desenvolvimento do MVP.
 
-14. Acesse a url http://health-med.127.0.0.1.nip.io/swagger
+### 2.4.1. Parâmetros de entrada
 
+Agendamento
+* string ID_Paciente;
+* string ID_Medico;
+* DateTime Data.
 
-[voltar](#índice)
+Listagem de agendamento
+* string ID_Medico.
 
-## Testes
+Edição do Horário do médico
+* string ID_Medico;
+* string Inicio;
+* string Fim;
+* string Horario;
 
-Foi criado um projeto para os testes automatizados:
+### 2.4.2. Requisitos funcionais
 
-- HealthMedScheduler.Application.unitTests
-    - São testadas as entidades de domínio e casos de uso utilizando mocks
+* Possibilitar cadastro/edição de horários disponíveis pelo médico;
+* O sistema deve permitir busca por médicos pelo paciente;
+* O sistema deve permitir ao paciente marcar consultas dentro da tabela de horários disponíveis do médico;
+* O sistema deve informar ao respectivo médico da consulta marcada pelo paciente.
 
-A cobertura alcançada está demonstrada pelas imagens abaixo:
 
-![Cobertura de Testes 1](./documentacao/imagens/code_coverage.png)
+### 2.4.3. Requisitos não funcionais
 
-![Cobertura de Testes 2](./documentacao/imagens/code_coverage2.png)
+* Testes unitários utilizando a biblioteca XUnit;
+* Cobertura mínima de testes de trinta por cento;
+* Concorrência de Agendamentos;
+* Validação de Conflito de Horários;
+* Banco de dados PostGreSQL;
+* .NET 8;
+* Arquitetura limpa.
 
-![Cobertura de Testes 2](./documentacao/imagens/code_coverage3.png)
+## 2.5. EXECUÇÃO
 
+Para fazer a execução basta executar o comando `docker-compose up -d` que fará a geração da infraestrutura e em seguida executar as APIs.
 
-
-## Levantamento de Requisitos
-
-### Histórico da Empresa
-
-A Health&Med é uma Operadora de Saúde que tem como objetivo digitalizar seus processos e operação. O principal gargalo da empresa é o Agendamento de Consultas Médicas, que atualmente ocorre exclusivamente através de ligações para a central de atendimento da empresa. 
-Recentemente, a empresa recebeu um aporte e decidiu investir no desenvolvimento de um sistema proprietário, visando proporcionar um processo de Agendamentos de Consultas Médicas 100% digital e mais ágil.
-Para viabilizar o desenvolvimento de um sistema que esteja em conformidade com as melhores práticas de desenvolvimento, a Health&Med contratou os alunos do curso de Pós Graduação .NET da FIAP para fazer a análise do projeto e desenvolver o MVP da solução.
-
-[voltar](#índice)
-
-### DDD
-Para a modelagem da solução utilizamos o Domain Driven Design e fizemos uso do Domain Storytelling para transformar o conhecimento sobre o domínio em requisitos para o desenvolvimento da solução via um Software.
-
-#### Domain Storytelling
-
-O time de desenvolvimento conversou com o responsável administrativo pela operadora e identificou os seguintes pontos:
-
-![Cadastro do Médico](./documentacao/imagens/01-CadastroMedico.png)
-</br>
-</br>
-![Cadastro do Paciente](./documentacao/imagens/02-CadastroPaciente.png)
-</br>
-</br>
-![Agendamento Consulta](./documentacao/imagens/03-AgendamentoConsulta.png)
-
-[voltar](#índice)
-
-
-#### Domínios e Contextos Delimitados Identificados
-
-##### Domínios
-
-![Domínios Identificados](./documentacao/imagens/dominiosHealthMed.png)
-
-[voltar](#índice)
-
-#### Contextos Delimitados
-
-![Mapa de Contextos Delimitados](./documentacao/imagens/mapaContextos.png)
-
-[voltar](#índice)
-
-### Requisitos Funcionais
-
-1. Cadastro do Usuário (Médico)
-   - O médico deverá poder se cadastrar, preenchendo os campos obrigatórios: Nome, CPF, Número CRM, E-mail e Senha.  
-2. Autenticação do Usuário (Médico)
-   - O sistema deve permitir que o médico faça login usando o E-mail e uma Senha.  
-3. Cadastro/Edição de Horários Disponíveis (Médico)
-   - O sistema deve permitir que o médico faça o Cadastro e Edição de seus horários disponíveis para agendamento de consultas.
-4. Cadastro do Usuário (Paciente)
-    - O paciente poderá se cadastrar preenchendo os campos: Nome, CPF, Email e Senha.
-5. Autenticação do Usuário (Paciente)
-   - O sistema deve permitir que o paciente faça login usando um E-mail e Senha.
-6. Busca por Médicos (Paciente)
-   - O sistema deve permitir que o paciente visualize a listagem dos médicos disponíveis.
-7. Agendamento de Consultas (Paciente)
-   - Após selecionar o médico, o paciente deve poder visualizar a agenda do médico com os horários disponíveis e efetuar o agendamento.
-8. Notificação de consulta marcada (Médico)
-   - Após o agendamento, feito pelo usuário Paciente, o médico deverá receber um e-mail contendo:
-     - Título do e-mail: ˮHealth&Med - Nova consulta agendadaˮ
-     - Corpo do e-mail: ˮOlá, Dr. {nome_do_médico}! Você tem uma nova consulta marcada! Paciente: {nome_do_paciente}. Data e horário: {data} às {horário_agendado}.ˮ
-
-
-### Requisitos Não Funcionais
-
-1. Concorrência de Agendamentos
-   - O sistema deve ser capaz de suportar múltiplos acessos simultâneos e garantir que apenas uma marcação de consulta seja permitida para um determinado horário.
-2. Validação de Conflito de Horários
-   - O sistema deve validar a disponibilidade do horário selecionado em tempo real, assegurando que não haja sobreposição de horários para consultas agendadas.
-   
-### Diagrama da Base de Dados
-![Banco de Dados](./documentacao/imagens/diagrama_banco.png)
-
-[voltar](#índice)
