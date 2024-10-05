@@ -141,5 +141,7 @@ Edição do Horário do médico
 * .NET 8;
 * Arquitetura limpa.
 
+## 2.5. EXECUÇÃO
 
+Para fazer a execução basta executar o comando `docker-compose up -d` que fará a geração da infraestrutura e em seguida executar as APIs.
 
