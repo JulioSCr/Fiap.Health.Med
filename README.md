@@ -62,24 +62,38 @@ A API segue o modelo de código limpo para melhor organização e para facilitar
 Existem no total quatro _endpoints_, sendo divididos em duas _controllers_, uma dedicada ao cadastro e autenticação de médicos e outra de pacientes, em ambos os casos a autenticação recebe os mesmos parâmetros de entrada.
 
 Cadastro do Médico:
-* string Cpf;
-* string Email;
-* string nome;
-* string Senha;
-* string SenhaConfirmacao;
-* string Crm;
-* string CrmEstado.
+{
+  "nome": "string",
+  "cpf": "string",
+  "cep": "string",
+  "endereco": "string",
+  "estado": "string",
+  "crm": "string",
+  "telefone": "string",
+  "email": "string",
+  "password": "string",
+  "confirmPassword": "string"
+}
 
 Cadastro do Paciente:
-* string CPF;
-* string Email;
-* string Nome;
-* string Senha;
-* string SenhaConfirmacao.
+{
+  "nome": "string",
+  "cpf": "string",
+  "cep": "string",
+  "endereco": "string",
+  "estado": "string",
+  "idade": "string",
+  "telefone": "string",
+  "email": "string",
+  "password": "string",
+  "confirmPassword": "string"
+}
 
 Autenticação:
-* string Email;
-* string Senha.
+{
+  "email": "string",
+  "senha": "string"
+}
 
 ### 2.3.2. Requisitos funcionais
 
@@ -110,18 +124,21 @@ A API segue o modelo de código limpo com minimal API para melhor manutenção e
 ### 2.4.1. Parâmetros de entrada
 
 Agendamento
-* string ID_Paciente;
-* string ID_Medico;
-* DateTime Data.
-
+{
+  "pacienteId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "especialidadeMedicoId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "dataHoraAtendimento": "2024-10-05T18:36:28.066Z"
+}
 Listagem de agendamento
-* string ID_Medico.
+* string ID.
 
 Edição do Horário do médico
-* string ID_Medico;
-* string Inicio;
-* string Fim;
-* string Horario;
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "pacienteId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "especialidadeMedicoId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "dataHoraAtendimento": "2024-10-05T18:36:47.569Z"
+}
 
 ### 2.4.2. Requisitos funcionais
 
