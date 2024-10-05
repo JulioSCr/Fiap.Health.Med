@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D7FFAD7B-17D5-4DAD-BB1E-2F153FD87B19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{71D56915-BF5B-4A24-9EC9-B2FF5DB6FB48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1BEE3838-E163-43C5-9E85-252E62193DDB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Infrastructure", "Fiap.Health.Med.Infrastructure\Fiap.Health.Med.Infrastructure.csproj", "{4A679F1F-EAB2-476A-9513-CACA86A8FD03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Domain", "Fiap.Health.Med.Domain\Fiap.Health.Med.Domain.csproj", "{7B3CF59D-EF59-4E44-96AA-7FF20210AA78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Api", "Fiap.Health.Med.API\Fiap.Health.Med.Api.csproj", "{F4EFB54C-E1B3-447D-842F-5F3346B247E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Application", "Fiap.Health.Med.Application\Fiap.Health.Med.Application.csproj", "{4E44B9EE-1447-4312-A227-E2A85C335A69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap.Health.Med.Application.UnitTests", "Fiap.Health.Med.Application.UnitTests\Fiap.Health.Med.Application.UnitTests.csproj", "{81A12DBD-4AAF-4C71-A186-A51C0918286B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{76BBE015-E9F2-4475-82BA-3D2B8829BA59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A679F1F-EAB2-476A-9513-CACA86A8FD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A679F1F-EAB2-476A-9513-CACA86A8FD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A679F1F-EAB2-476A-9513-CACA86A8FD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A679F1F-EAB2-476A-9513-CACA86A8FD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3CF59D-EF59-4E44-96AA-7FF20210AA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3CF59D-EF59-4E44-96AA-7FF20210AA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3CF59D-EF59-4E44-96AA-7FF20210AA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3CF59D-EF59-4E44-96AA-7FF20210AA78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4EFB54C-E1B3-447D-842F-5F3346B247E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EFB54C-E1B3-447D-842F-5F3346B247E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EFB54C-E1B3-447D-842F-5F3346B247E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EFB54C-E1B3-447D-842F-5F3346B247E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E44B9EE-1447-4312-A227-E2A85C335A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E44B9EE-1447-4312-A227-E2A85C335A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E44B9EE-1447-4312-A227-E2A85C335A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E44B9EE-1447-4312-A227-E2A85C335A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A12DBD-4AAF-4C71-A186-A51C0918286B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A12DBD-4AAF-4C71-A186-A51C0918286B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A12DBD-4AAF-4C71-A186-A51C0918286B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A12DBD-4AAF-4C71-A186-A51C0918286B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A679F1F-EAB2-476A-9513-CACA86A8FD03} = {D7FFAD7B-17D5-4DAD-BB1E-2F153FD87B19}
+		{7B3CF59D-EF59-4E44-96AA-7FF20210AA78} = {D7FFAD7B-17D5-4DAD-BB1E-2F153FD87B19}
+		{F4EFB54C-E1B3-447D-842F-5F3346B247E6} = {D7FFAD7B-17D5-4DAD-BB1E-2F153FD87B19}
+		{4E44B9EE-1447-4312-A227-E2A85C335A69} = {D7FFAD7B-17D5-4DAD-BB1E-2F153FD87B19}
+		{81A12DBD-4AAF-4C71-A186-A51C0918286B} = {71D56915-BF5B-4A24-9EC9-B2FF5DB6FB48}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {877E6D01-399B-4D04-98A6-F21235CA469F}
+	EndGlobalSection
+EndGlobal

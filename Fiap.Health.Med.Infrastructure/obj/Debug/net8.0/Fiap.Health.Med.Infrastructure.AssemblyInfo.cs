@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fiap.Health.Med.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fee2d25fbdefd0945a0a21217325734673304ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8adeb705e7b7501793ff6505e3009bac504bc25")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fiap.Health.Med.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fiap.Health.Med.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
